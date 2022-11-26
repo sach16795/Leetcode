@@ -16,5 +16,4 @@ class Solution:
                 hi -=1
             if s[lo] not in v:
                 lo +=1
-        print(s)
         return ''.join([i for i in s])
