@@ -14,5 +14,4 @@ class Solution:
                 decreasing = False
             elif nums[i] < nums[i-1]:
                 increasing = False
-                
         return increasing or decreasing
