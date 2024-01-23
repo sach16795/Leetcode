@@ -16,6 +16,4 @@ class Solution:
                         t_final.pop()
                 else:
                     t_final.append(t[i])
-        print(s_final)
-        print(t_final)
         return s_final == t_final
