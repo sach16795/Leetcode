@@ -3,7 +3,7 @@ class Solution:
         curr_dir = 'N'
         x=0
         y=0
-        instructions = instructions*2
+        instructions = instructions
         dir_move = {'N':[0,1], 'S':[0,-1], 'E':[1,0], 'W': [-1,0]}
         dir_trans = {'N':['E','W'], 'S':['W','E'], 'E':['S','N'], 'W': ['N','S']}
         
