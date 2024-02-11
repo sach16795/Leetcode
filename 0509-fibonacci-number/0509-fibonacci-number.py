@@ -1,13 +1,8 @@
 class Solution:
     def fib(self, n: int) -> int:
-        a = 0
-        b = 1
-        if n == 0:
-            return a
-        elif n ==1:
-            return b
-        for i in range(2, n+1):
-            c = a+b
-            a =b
-            b = c
-        return c
+        if n <= 1:
+            return n
+        seen = {0:0,1:1}
+        for i in range(2,n+1):
+            seen[i] = seen[i-1] + seen[i-2]
+        return seen[n]
