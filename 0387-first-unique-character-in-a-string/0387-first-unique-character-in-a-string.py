@@ -1,8 +1,18 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        for i in s:
-            if s.count(i) == 1:
-                return s.index(i)
-        return -1
-        
-        
+        seen = {}
+        for i in range(len(s)):
+            if s[i] in seen:
+                seen[s[i]] = -1
+            else:
+                seen[s[i]] = i
+        print(seen)
+        ans = -1
+        for k,v in seen.items():
+            if v == -1:
+                continue
+            if ans == -1:
+                ans = v
+            elif v<ans:
+                ans = v
+        return ans
