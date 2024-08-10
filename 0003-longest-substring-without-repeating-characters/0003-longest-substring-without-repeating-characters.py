@@ -12,5 +12,3 @@ class Solution:
                 seen.add(s[j])
             ans = ans if len(ans) > len(curr) else curr
         return len(ans)
-            
-                
