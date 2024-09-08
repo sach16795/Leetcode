@@ -6,29 +6,19 @@
 class Solution:
     def splitListToParts(self, head: Optional[ListNode], k: int) -> List[Optional[ListNode]]:
         # Complete your own solution
-#         length = 0
-#         curr = head
-#         while curr is not None:
-#             length +=1
-#             curr = curr.next
-#         max_size = length / k
-        
-#         ans = [None] * k
-        
-#         current = head
-#         print(ans)
-        
-        # Leetcode solution
-        ans = [None] * k
-
-        size = 0
+        length = 0
         current = head
         while current is not None:
-            size += 1
+            length +=1
             current = current.next
+        max_size = length / k
+        
+        ans = [None] * k
+        
+        current = head
 
-        split_size = size // k
-        num_remaining_parts = size % k
+        split_size = length // k
+        num_remaining_parts = length % k
 
         current = head
         for i in range(k):
