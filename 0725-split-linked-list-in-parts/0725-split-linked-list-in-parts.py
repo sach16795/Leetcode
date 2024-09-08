@@ -11,12 +11,9 @@ class Solution:
         while current is not None:
             length +=1
             current = current.next
-        max_size = length / k
-        
+            
         ans = [None] * k
-        
         current = head
-
         split_size = length // k
         num_remaining_parts = length % k
 
@@ -34,5 +31,4 @@ class Solution:
                 tail = tail.next
                 current = current.next
             ans[i] = new_part.next
-
         return ans
