@@ -1,7 +1,6 @@
 class trie_node:
     def __init__(self):
         self.next = [None] * 26
-        self.cnt = 0
         self.is_end = False
 
 class Trie:
@@ -14,7 +13,6 @@ class Trie:
         for char in word:
             if node.next[ord(char) - ord("a")] == None:
                 node.next[ord(char) - ord("a")] = trie_node()
-            node.next[ord(char) - ord("a")].cnt +=1
             node = node.next[ord(char) - ord("a")]
         node.is_end = True
 
