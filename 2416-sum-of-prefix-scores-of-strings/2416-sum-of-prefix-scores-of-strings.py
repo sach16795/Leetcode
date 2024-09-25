@@ -2,7 +2,6 @@ class trie_node:
     def __init__(self):
         self.next = [None] * 26
         self.cnt = 0
-        self.is_end = False
 
 class Trie:
 
@@ -12,20 +11,21 @@ class Trie:
     def insert(self, word: str) -> None:
         node = self.root
         for char in word:
-            if node.next[ord(char) - ord("a")] == None:
-                node.next[ord(char) - ord("a")] = trie_node()
-            node.next[ord(char) - ord("a")].cnt +=1
-            node = node.next[ord(char) - ord("a")]
-        node.is_end = True
-
+            x = ord(char) - ord("a")
+            if node.next[x] == None:
+                node.next[x] = trie_node()
+            node.next[x].cnt +=1
+            node = node.next[x]
+            
     def startsWithCount(self, prefix: str) -> bool:
         node = self.root
         ans = 0
         for char in prefix:
-            if node.next[ord(char) - ord("a")] == None:
+            x = ord(char) - ord("a")            
+            if node.next[x] == None:
                 return False
-            ans += node.next[ord(char) - ord("a")].cnt
-            node = node.next[ord(char) - ord("a")]
+            ans += node.next[x].cnt
+            node = node.next[x]
         return ans
 
 class Solution:
