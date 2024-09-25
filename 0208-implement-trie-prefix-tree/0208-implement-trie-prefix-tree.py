@@ -13,8 +13,7 @@ class Trie:
         node = self.root
         for char in word:
             if node.next[ord(char) - ord("a")] == None:
-                new = trie_node()
-                node.next[ord(char) - ord("a")] = new
+                node.next[ord(char) - ord("a")] = trie_node()
             node.next[ord(char) - ord("a")].cnt +=1
             node = node.next[ord(char) - ord("a")]
         node.is_end = True
