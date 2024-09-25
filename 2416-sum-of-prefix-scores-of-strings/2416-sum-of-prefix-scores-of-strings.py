@@ -3,8 +3,7 @@ class trie_node:
         self.next = [None] * 26
         self.cnt = 0
 
-class Trie:
-
+class Solution:
     def __init__(self):
         self.root = trie_node()
 
@@ -27,17 +26,14 @@ class Trie:
             ans += node.next[x].cnt
             node = node.next[x]
         return ans
-
-class Solution:
+    
     def sumPrefixScores(self, words: List[str]) -> List[int]:
-        trie = Trie()
         N = len(words)
         score = [0] * N
-        for word in words:
-            trie.insert(word)
         for i in range(N):
-            # Get the count of all prefixes of given string.
-            score[i] = trie.startsWithCount(words[i])
+            self.insert(words[i])
+        for i in range(N):
+            score[i] = self.startsWithCount(words[i])
         return score
     
         # Approach 1 Bruteforce
