@@ -1,9 +1,18 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        ab = "abcdefghijklmnopqrstuvwxyz0123456789"
-        clean = ''
-        for i in s:
-            if i.lower() in ab:
-                clean += i.lower()
-        print(clean)
-        return clean == clean[::-1]
+        s = s.lower()
+        lo = 0
+        hi = len(s) - 1
+        while (lo < hi):
+            if not(s[lo].isalnum()) :
+                lo +=1
+                continue
+            elif not(s[hi].isalnum()) :
+                hi -=1
+                continue
+            else:
+                if s[lo] != s[hi]:
+                    return False
+                lo += 1
+                hi -= 1
+        return True        
