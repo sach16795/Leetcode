@@ -43,4 +43,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sach16795/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/sach16795/Leetcode/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/sach16795/Leetcode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
