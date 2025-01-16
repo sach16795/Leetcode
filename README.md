@@ -53,10 +53,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/sach16795/Leetcode/tree/master/0050-powx-n) |
+| [1013-fibonacci-number](https://github.com/sach16795/Leetcode/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/sach16795/Leetcode/tree/master/0050-powx-n) |
+| [1013-fibonacci-number](https://github.com/sach16795/Leetcode/tree/master/1013-fibonacci-number) |
 ## Greedy
 |  |
 | ------- |
@@ -65,4 +67,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/sach16795/Leetcode/tree/master/0162-find-peak-element) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/sach16795/Leetcode/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/sach16795/Leetcode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
