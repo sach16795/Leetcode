@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/sach16795/Leetcode/tree/master/0050-powx-n) |
+| [0069-sqrtx](https://github.com/sach16795/Leetcode/tree/master/0069-sqrtx) |
 | [0670-maximum-swap](https://github.com/sach16795/Leetcode/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/sach16795/Leetcode/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/sach16795/Leetcode/tree/master/1236-n-th-tribonacci-number) |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/sach16795/Leetcode/tree/master/0069-sqrtx) |
 | [0162-find-peak-element](https://github.com/sach16795/Leetcode/tree/master/0162-find-peak-element) |
 ## Dynamic Programming
 |  |
