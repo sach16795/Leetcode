@@ -93,4 +93,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0177-nth-highest-salary](https://github.com/sach16795/Leetcode/tree/master/0177-nth-highest-salary) |
 | [0178-rank-scores](https://github.com/sach16795/Leetcode/tree/master/0178-rank-scores) |
+| [0185-department-top-three-salaries](https://github.com/sach16795/Leetcode/tree/master/0185-department-top-three-salaries) |
 <!---LeetCode Topics End-->
