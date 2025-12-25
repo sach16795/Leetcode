@@ -88,4 +88,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sach16795/Leetcode/tree/master/0001-two-sum) |
+## Database
+|  |
+| ------- |
+| [0177-nth-highest-salary](https://github.com/sach16795/Leetcode/tree/master/0177-nth-highest-salary) |
 <!---LeetCode Topics End-->
