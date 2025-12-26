@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select distinct(num) as ConsecutiveNums  from (select num, lead(num,1) over (order by id) as one,  lead(num,2) over (order by id) as two from Logs)t0 where num = one and num = two
