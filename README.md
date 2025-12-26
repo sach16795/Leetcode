@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sach16795/Leetcode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/sach16795/Leetcode/tree/master/0049-group-anagrams) |
 | [0162-find-peak-element](https://github.com/sach16795/Leetcode/tree/master/0162-find-peak-element) |
 | [1524-string-matching-in-an-array](https://github.com/sach16795/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sach16795/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -15,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/sach16795/Leetcode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/sach16795/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/sach16795/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0680-valid-palindrome-ii](https://github.com/sach16795/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -88,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sach16795/Leetcode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/sach16795/Leetcode/tree/master/0049-group-anagrams) |
 ## Database
 |  |
 | ------- |
@@ -96,4 +99,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0180-consecutive-numbers](https://github.com/sach16795/Leetcode/tree/master/0180-consecutive-numbers) |
 | [0185-department-top-three-salaries](https://github.com/sach16795/Leetcode/tree/master/0185-department-top-three-salaries) |
 | [0626-exchange-seats](https://github.com/sach16795/Leetcode/tree/master/0626-exchange-seats) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/sach16795/Leetcode/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
