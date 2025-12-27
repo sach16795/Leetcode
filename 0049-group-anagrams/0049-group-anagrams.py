@@ -1,11 +1,10 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         seen = {}
-        a = []
-        for string in strs: 
-            srt = "".join(sorted(string))
-            if srt in seen:
-                seen[srt].append(string)
+        for word in strs:
+            srt_str = "".join(sorted(word))
+            if srt_str in seen:
+                seen[srt_str].append(word)
             else:
-                seen[srt] = [string]
+                seen[srt_str] = [word]
         return [value for value in seen.values()]
