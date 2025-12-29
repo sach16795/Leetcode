@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/sach16795/Leetcode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/sach16795/Leetcode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/sach16795/Leetcode/tree/master/0056-merge-intervals) |
 | [0162-find-peak-element](https://github.com/sach16795/Leetcode/tree/master/0162-find-peak-element) |
 | [0238-product-of-array-except-self](https://github.com/sach16795/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1524-string-matching-in-an-array](https://github.com/sach16795/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -108,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/sach16795/Leetcode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/sach16795/Leetcode/tree/master/0056-merge-intervals) |
 ## Sliding Window
 |  |
 | ------- |
