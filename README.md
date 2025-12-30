@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0180-consecutive-numbers](https://github.com/sach16795/Leetcode/tree/master/0180-consecutive-numbers) |
 | [0185-department-top-three-salaries](https://github.com/sach16795/Leetcode/tree/master/0185-department-top-three-salaries) |
 | [0262-trips-and-users](https://github.com/sach16795/Leetcode/tree/master/0262-trips-and-users) |
+| [0601-human-traffic-of-stadium](https://github.com/sach16795/Leetcode/tree/master/0601-human-traffic-of-stadium) |
 | [0626-exchange-seats](https://github.com/sach16795/Leetcode/tree/master/0626-exchange-seats) |
 ## Sorting
 |  |
