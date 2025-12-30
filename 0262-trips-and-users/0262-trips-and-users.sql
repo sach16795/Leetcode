@@ -1,6 +1,7 @@
-select request_at  as Day,
-    round(sum(IF(status != 'completed', 1, 0))/count(*),2) as 'Cancellation Rate'
-    from Trips
-    where client_id  not in  (select users_id from Users where banned = 'Yes')
-    and driver_id  not in  (select users_id from Users where banned = 'Yes')
-    and request_at between "2013-10-01" and "2013-10-03" group by request_at
+# Write your MySQL query statement below
+select request_at as 'Day',
+round(sum(if(status!= 'completed',1,0))/sum(1),2) as 'Cancellation Rate'
+from Trips
+where client_id not in (select users_id from Users where banned = 'Yes')
+and driver_id not in (select users_id from Users where banned = 'Yes')
+and request_at between "2013-10-01" and "2013-10-03" group by request_at
