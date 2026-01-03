@@ -7,10 +7,8 @@ class Solution:
         ans = 0
 
         while l < r:
-            if lmax < height[l]:
-                lmax = height[l]
-            if rmax < height[r]:
-                rmax = height[r]
+            lmax = lmax if lmax > height[l] else height[l]
+            rmax = rmax if rmax > height[r] else height[r]
             if lmax < rmax:
                 if min(height[l],rmax) * (r-l) > ans:
                     ans = min(height[l],rmax) * (r-l)
