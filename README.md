@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0601-human-traffic-of-stadium](https://github.com/sach16795/Leetcode/tree/master/0601-human-traffic-of-stadium) |
 | [0626-exchange-seats](https://github.com/sach16795/Leetcode/tree/master/0626-exchange-seats) |
 | [1158-market-analysis-i](https://github.com/sach16795/Leetcode/tree/master/1158-market-analysis-i) |
+| [1757-recyclable-and-low-fat-products](https://github.com/sach16795/Leetcode/tree/master/1757-recyclable-and-low-fat-products) |
 ## Sorting
 |  |
 | ------- |
